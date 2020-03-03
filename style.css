@@ -5,7 +5,8 @@
 
 body {
   font-family: Helvetica, sans-serif;
-	background: url("https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/musicon_bg.png") no-repeat center center fixed;
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/musicon_bg.png")
+    no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -26,8 +27,8 @@ header {
 }
 
 .container {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 .branding {
@@ -56,15 +57,16 @@ nav {
   font-weight: normal;
 }
 
-.navbar li a:hover, .navbar .current a {
+.navbar li a:hover,
+.navbar .current a {
   color: #ffffff;
 }
 
 /* Home Page Rulesets */
 
 #introduction {
-    margin-top: 15%;
-    margin-bottom: 50%;
+  margin-top: 15%;
+  margin-bottom: 50%;
 }
 
 #introduction h1 {
@@ -90,7 +92,7 @@ nav {
 }
 
 #introduction a:hover {
-  background-color: #26A69A;
+  background-color: #26a69a;
 }
 
 /* Store Page Rulesets */
@@ -130,12 +132,16 @@ nav {
   padding: 2%;
 }
 
-.name, .description, .price, del {
+.name,
+.description,
+.price,
+del {
   color: #000000;
   text-align: left;
 }
 
-.description, .price {
+.description,
+.price {
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -174,13 +180,13 @@ nav {
 }
 
 #top h2 {
-  margin: 3%
+  margin: 3%;
   font-size: 30px;
   font-weight: normal;
 }
 
 #top p {
-  margin: 3%
+  margin: 3%;
   font-size: 18px;
   font-weight: lighter;
 }
@@ -190,7 +196,8 @@ nav {
   margin: 10% auto;
 }
 
-.contact p, .contact ul {
+.contact p,
+.contact ul {
   margin: 1%;
   font-size: 16px;
   font-weight: lighter;
