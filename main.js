@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const context = {
   title: "Welcome to Musicon",
   body:
